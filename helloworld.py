@@ -1,7 +1,4 @@
-import calendar  
-
-yy = int(input("Enter year: "))  
-mm = int(input("Enter month: "))  
-  
-
-print(calendar.month(yy,mm))  
+import calendar
+cal = calendar.month(2008, 1)
+print "Here is the calendar:"
+print cal
